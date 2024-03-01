@@ -8,11 +8,31 @@
      color: rgb(255, 84, 0);
  }
 
+ .c-titel {
+     font-size: 40px;
+     font-weight: 800;
+ }
+
  .c-paragraph {
      font-size: 16px;
      font-weight: 400;
+     color: rgba(19, 19, 24, 0.7);
  }
 
+ .pry-button {
+     font-size: 16px;
+     font-weight: 700;
+     width: 174px;
+     height: 52px;
+     border-radius: 8px;
+     color: white;
+     border: none;
+     background: rgb(255, 84, 0);
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+ }
 
  /* nav bar  */
 
@@ -59,6 +79,10 @@
 
  }
 
+ #b-p {
+     color: white;
+ }
+
  .banner-titel {
      display: flex;
      background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png );
@@ -95,32 +119,71 @@
      background: rgb(255, 255, 255);
  }
 
- .pry-button {
-     font-size: 16px;
-     font-weight: 700;
-     width: 174px;
-     height: 52px;
-     border-radius: 8px;
-     color: white;
-     border: none;
-     background: rgb(255, 84, 0);
-     align-items: center;
-     display: flex;
-     justify-content: center;
-     gap: 10px;
- }
+
 
  .input-filds>button>img {
      width: 24px;
      height: 24px;
  }
 
+ /* popular tours */
+ .popular {
+     display: flex;
+    gap: 53px;
+     margin: 100px 250px;
+     justify-content: space-around;
+     align-items: center;
+
+ }
+
+ .popular-discription {
+     width: 577px;
+     height: 466px;
+    padding: px;
+ }
+
+ .popular-img {
+     width: 540px;
+     height: 550px
+ }
+ 
+
  @media only screen and (max-width: 600px) {
+     .nav-titel-container>h1 {
+         font-size: 2.3rem;
+     }
 
      .input-filds,
      .nav-container {
          flex-direction: column;
+         align-items: center;
      }
+
+     .nav-titel-container {
+         font-size: 21.54px;
+         font-weight: 800;
+     }
+
+     .banner-titel {
+         background-size: cover;
+
+         height: 683px;
+         flex-direction: column;
+     }
+
+ }
+
+ @media only screen and (min-width: 601px) and (max-width: 992px) {
+     .nav-titel-container>h1 {
+         font-size: 2.5rem;
+     }
+
+     .input-filds,
+     .nav-container {
+         flex-direction: column;
+
+     }
+
 
      .banner-titel {
          background-size: cover;
@@ -128,5 +191,4 @@
          height: 683px;
          flex-direction: column;
      }
-
  }
