@@ -1,0 +1,118 @@
+ /* common styles */
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap') * {
+     font-family: "Mulish", sans-serif;
+
+ }
+
+ .c-span {
+     color: rgb(255, 84, 0);
+ }
+
+ .c-paragraph {
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+
+ /* nav bar  */
+
+ .nav-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 50px 130px 30px 130px;
+ }
+
+ .nav-titel-container {
+     display: flex;
+     gap: 1rem;
+     font-size: 30px;
+     font-weight: 800;
+     align-items: center;
+ }
+
+ .logo {
+     width: 48px;
+     height: 56.01px;
+ }
+
+ .nav-manu>a {
+     text-decoration: none;
+     color: rgb(66, 66, 71);
+
+ }
+
+ .nav-manu {
+     display: flex;
+     gap: 30px;
+     font-size: 18px;
+     font-weight: 400;
+ }
+
+ /* nav bar end  */
+
+ /* main banner */
+ .main-banner-container {
+     display: flex;
+     justify-content: center;
+
+
+ }
+
+ .banner-titel {
+     display: flex;
+     background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png );
+     width: 1370px;
+     height: 600px;
+     background-size: cover;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 16px;
+     /* margin: 0px 135px 10px 135px; */
+     color: rgb(255, 255, 255);
+     text-align: center;
+
+ }
+
+ .banner-titel>h1 {
+     font-size: 64px;
+     font-weight: 800;
+     margin-bottom: 10px;
+ }
+
+ .input-filds {
+     display: flex;
+     align-self: center;
+     gap: 30px;
+ }
+
+ .inputs {
+     border: none;
+     border-radius: 8px;
+     width: 174px;
+     height: 52px;
+     background: rgb(255, 255, 255);
+ }
+
+ .pry-button {
+     font-size: 16px;
+     font-weight: 700;
+     width: 174px;
+     height: 52px;
+     border-radius: 8px;
+     color: white;
+     border: none;
+     background: rgb(255, 84, 0);
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+ }
+
+ .input-filds>button>img {
+     width: 24px;
+     height: 24px;
+ }
+
+ @media (min-width:600px) {}
