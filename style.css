@@ -147,6 +147,62 @@
      height: 550px
  }
 
+ /* newsletter sedction  */
+ .newsletter-section {
+  align-items: center;   
+ display: flex;
+ justify-content: center;
+ gap: 46px;
+ margin: 30px 130px;
+ }
+.newsletter-container{
+    border: 1px solid rgb(255, 84, 0);
+     border-radius: 16px;
+     padding: 41px;
+     width: 474px;
+     height: 422px;
+     
+ 
+}
+ .common-box-titel {
+     font-size: 24px;
+     font-weight: 800;
+    
+ }
+
+ .newsletter-container,
+ .submit-inputs-container {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .submit-inputs-container {
+     gap: 31px;
+ }
+
+ .submit-inputs {
+     background-color: rgba(19, 19, 24, 0.05);
+     padding: 0px 30px;
+     width: 393px;
+     height: 52px;
+     border-radius: 8px;
+     border: none;
+ }
+
+ .submit-btn {
+     width: 450px;
+     height: 52px;
+     border-radius: 8px;
+     border: none;
+ }
+
+ .news-image{
+    width: 672px;
+height: 422px;
+border-radius: 16px;
+ 
+ }
+
  /* footer section  */
  footer {
      background-color: rgba(19, 19, 24, 0.05);
@@ -204,12 +260,13 @@
          width: 100%;
          height: 100%;
      }
+
      .footer-icon {
-        padding: 20px;
+         padding: 20px;
      }
 
-     .footer-container{
-        padding: 50px;
+     .footer-container {
+         padding: 50px;
      }
  }
 
@@ -218,16 +275,26 @@
          font-size: 2.5rem;
      }
 
-     .input-filds,  .popular,
+     .input-filds,
+     .popular,
      .nav-container {
          flex-direction: column;
 
      }
 
-     
-     
 
-     .banner-titel {
+     .popular{
+        margin: 0px;
+
+     }
+/* .popular-img {
+    display: flex;
+}
+.popular-img>img{
+    width: 900px;
+    img
+}*/
+     .banner-titel { 
          background-size: cover;
          width: ;
          height: 683px;
