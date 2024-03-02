@@ -197,7 +197,7 @@
  }
 
  .news-image{
-    width: 672px;
+    width: 48.25rem;
 height: 422px;
 border-radius: 16px;
  
@@ -233,7 +233,7 @@ border-radius: 16px;
 
      .input-filds,
      .popular,
-     .nav-container {
+     .nav-container,.newsletter-section  {
          flex-direction: column;
          align-items: center;
      }
@@ -251,6 +251,9 @@ border-radius: 16px;
          flex-direction: column;
 
      }
+     .news-image{
+        width: 34.68rem;
+        height: 400px;}
 
      .popular-discription {
          width: 550px;
@@ -275,7 +278,7 @@ border-radius: 16px;
          font-size: 2.5rem;
      }
 
-     .input-filds,
+     .input-filds, .newsletter-section,
      .popular,
      .nav-container {
          flex-direction: column;
